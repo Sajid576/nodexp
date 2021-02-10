@@ -4,6 +4,19 @@
 
 ## Getting Started - Installation & Usage
 
+##### Option-1:(Using Docker)
+
+- Build the image using following command:
+```
+$ docker build -t <username>/nodexp  .
+```
+- Run the image using following command: 
+```
+$ docker run -it --rm --name <username>/nodexp
+```
+
+##### Option-2:(Using your own system)
+
 Download NodeXP by cloning the Git repository:
 
 	git clone https://github.com/esmog/nodexp
@@ -66,7 +79,7 @@ The tool’s purpose is strictly academic and was developed in order to conduct 
 ## Prerequisites
 
  - Python 2.7
- - Metasploit Framework
+ - Metasploit Framework [Docker Image](https://hub.docker.com/r/metasploitframework/metasploit-framework)
  - msfvenom
  - Kali Linux (or any other Linux distro with Metasploit Framework installed)
 
@@ -98,4 +111,8 @@ NodeXP - Version 1.2.2
 ## Authors
 
 * **Dimitris Antonaropoulos** - [esmog](https://github.com/esmog)
+
+## References
+1) Cyberpunk Blog [Click here](https://www.cyberpunk.rs/server-side-javascript-injection-with-nodexp-usage-example-ssji-metasploit)
+
 
